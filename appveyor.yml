@@ -21,7 +21,7 @@ test: off
 # Publish artifacts to GitHub Releases on "tag" builds
 deploy:
   provider: GitHub
-  auth_token: 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
+  auth_token: dXBHZxVqf61NcYCrS+xZ9jMgPeLLMluaiddxavTSDuKEAJAGAliLo7q+o8S2IYsL
   on:
     appveyor_repo_tag: true
 
