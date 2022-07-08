@@ -9,7 +9,7 @@ def main(page: Page):
 
     def launchWeb(e):
         browser = webdriver.Chrome(ChromeDriverManager().install())
-        browser.get('https://www.google.com/')
+        browser.get('https://www.youtube.com/')
 
     page.add(
         Container(
